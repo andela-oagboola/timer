@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CountDown Timer</title>
+
+    <link rel="stylesheet" type="text/css" href="timer.css">
+    <link rel="stylesheet" type="text/css" href="flipclock.css">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.7.12/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="animate.css/animate.min.css">
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="flipclock.min.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+  </head>
+
+  <body>
+    <div class="timerContainer">
+      <div class="overlay">
+        <div class="newYear">
+          <h4>New Year starts in:</h4>
+        </div>
+        <div class="clock"></div>
+        <div class="setTime">
+          <p>Set a time</p>
+          <span>Seconds:</span> <input type="text" class="timer" />
+          <button class="resetTime">Set Time</button>
+        </div>
+      </div>
+    </div>
+    <div class='easytransitions'>
+      <div class='easytransitions_transition'>
+        <div class='div easytransitions_transition__part-1 none'></div>
+        <div class='div easytransitions_transition__part-2 none'></div>
+        <div class='div easytransitions_transition__part-3 none'></div>
+        <div class='div easytransitions_transition__part-4 none'></div>
+        <div class='div easytransitions_transition__part-5 none'></div>
+        <div class='div easytransitions_transition__part-6 none'></div>
+        <div class='div easytransitions_transition__part-7 none'></div>
+        <div class='div easytransitions_transition__part-8 none'></div>
+      </div>
+      <div class='easytransitions_navigation'>
+        <div class='easytransitions_navigation__left'>
+          <i class='mdi mdi-arrow-left'></i>
+        </div>
+        <div class='easytransitions_navigation__right'>
+          <i class='mdi mdi-arrow-right'></i>
+        </div>
+      </div>
+      <section class='active_slide slideImages image1' data-transition='none'></section>
+      <section class="slideImages image2" data-transition='split_diagonal'></section>
+      <section class="slideImages image3" data-transition='split_diagonal_alt'></section>
+      <section class="slideImages image4" data-transition='split_diamond'></section>
+    </div>
+  </body>
+</html>
